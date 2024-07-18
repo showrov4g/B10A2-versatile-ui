@@ -5,4 +5,31 @@
     header .menu ul{
         display: none;
     }
+    /* hero section  */
+    .hero-section {
+        width: 90%;
+        display: block;
+    }
+    .hero-content{
+        width: 100%;
+    }
+    .hero-content .button{
+       display: flex;
+       gap: 5px;
+       
+    }
+    .hero-content .button button{
+        padding: 6px 13px 6px 13px;
+    }
+    .hero-content button span{
+        display: none;
+    }
+    .hero-image{
+        width: 100%;
+    }
+    .hero-image .box-2{
+        position: absolute;
+        bottom: 30%;
+        left: 0;
+    }
 }

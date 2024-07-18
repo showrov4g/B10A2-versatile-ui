@@ -11,10 +11,23 @@ font-family: "Inter", sans-serif; */
     padding: 0;
     box-sizing: border-box;
 }
+/* global style  */
+.btn{
+    padding: 16px 40px 16px 40px;
+    background-color: #E6533C;
+    border: none;
+    font-family: Inter;
+    font-size: 1.25rem;
+    border-radius: 45px;
+    color: #fff;
+}
+
+/* global design end  */
+
+
 header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 5) 100%);
     padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
 }
 .header-top{
     display: flex;
@@ -58,3 +71,88 @@ header .menu .menu-bar{
 /* header-top finished */
 
 /* hero section style start  */
+.hero-section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;justify-content: space-between;
+    align-items: center;
+}
+.hero-content{
+    width: 50%;
+}
+.hero-content h1{
+    font-family: Inter;
+    font-size: 4.9rem;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    line-height: 93%;
+    margin-bottom: 5%;
+}
+.hero-content p{
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+}
+.hero-content h1 span{
+    font-family: "Dancing Script", cursive;
+} 
+
+.hero-image {
+    background-image: url(/images/Images2.png);
+    width: 40%;
+    height: 580px;
+    background-image: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hero-image .box-1{
+    background: rgba(255, 255, 255, 0.1); 
+    position: absolute;
+    top: 20%;
+    right: 0;
+    border-radius: 12px;
+    padding: 5%;
+}
+.hero-image .box-1 h1{
+    font-family: Inter;
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 0;
+}
+.hero-image .box-1 h4{
+    font-family: Inter;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.82rem;
+}
+.hero-image .box-2{
+    display: flex;
+}
+.hero-image .box-2 .ellipse{
+    width: 4rem;
+    background-color: #E6533C;
+    border-radius: 50%;
+    margin: 5%;
+}
+.hero-image .box-2 h1{
+    font-family: Inter;
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 0;
+}
+.hero-image .box-2 h4{
+    font-family: Inter;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.82rem;
+}
+.hero-image .box-2{
+    background: rgba(255, 255, 255, 0.1); 
+    position: absolute;
+    bottom: 12%;
+    left: -15%;
+    border-radius: 12px;
+    padding: 5%;
+}
+
+
+.hero-content .button{
+    margin-top: 7%;
+}
