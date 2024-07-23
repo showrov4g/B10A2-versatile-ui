@@ -1,7 +1,10 @@
 @media screen and (max-width:576px){
+    .hero-section{
+        margin-top: 3.2rem;
+    }
     header .menu .menu-bar{
     display: block;
-}
+    }
     header .menu ul{
         display: none;
     }
@@ -32,4 +35,5 @@
         bottom: 30%;
         left: 0;
     }
-}
+    /* header section design end  */
+}   

@@ -21,7 +21,18 @@ font-family: "Inter", sans-serif; */
     border-radius: 45px;
     color: #fff;
 }
-
+.background{
+    background-color: #000000;
+}
+.title{
+    color: #fff;
+    font-family: "Inter", sans-serif; 
+    font-size: 3rem;
+    font-weight: 900;
+}
+.disc{
+    
+}
 /* global design end  */
 
 
@@ -95,7 +106,11 @@ header .menu .menu-bar{
 .hero-content h1 span{
     font-family: "Dancing Script", cursive;
 } 
-
+/* button  */
+.download{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
 .hero-image {
     background-image: url(images/Images2.png);
     width: 40%;
@@ -152,7 +167,16 @@ header .menu .menu-bar{
     padding: 5%;
 }
 
-
 .hero-content .button{
     margin-top: 7%;
+}
+
+/* havit section design start  */
+.habit{
+    padding: 30% 0;
+}
+.habit .details{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
