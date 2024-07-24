@@ -31,7 +31,10 @@ font-family: "Inter", sans-serif; */
     font-weight: 900;
 }
 .disc{
-    
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
 }
 /* global design end  */
 
@@ -173,10 +176,10 @@ header .menu .menu-bar{
 
 /* havit section design start  */
 .habit{
-    padding: 30% 0;
+    padding: 3rem 0;
 }
 .habit .details{
-    width: 80%;
+    width: 41rem;
     margin: 0 auto;
     text-align: center;
 }
