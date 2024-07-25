@@ -214,9 +214,13 @@ header .menu .menu-bar{
     padding: 2rem;
     gap: 2rem;
     justify-content: space-between;
+    align-items: center;
+}
+.run-details{
+    width: 45%;
 }
 .run .run-img{
-    width: 22.9rem;
+    width: 40%;
     height: auto;
 
 }
@@ -224,6 +228,12 @@ header .menu .menu-bar{
     width: 100%;
     border-radius: 1.12rem;
 }
-.run-details{
-    width: 27.7rem;
+.run-details .title{
+    margin: 0.3rem 0;
+}
+.run-details .disc{
+    margin: 1rem 0;
+}
+.run-details button{
+    margin-top: 1rem;
 }

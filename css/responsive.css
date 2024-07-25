@@ -38,7 +38,25 @@
 
     /* header section design end  */
     /* habit section  */
+    .habit .details{
+        width: 90%;
+    }
     .habit-cards{
         grid-template-columns: repeat(1, 1fr);
+    }
+    /* run section  */
+    .run{
+        width: 90%;
+        display: block;
+    }
+    .run-details{
+        width: 100%;
+        margin-bottom: 2.5rem;
+    }
+    .run .run-img{
+        width: 100%;
+    }
+    .run-details button{
+        width: 100%;
     }
 }   
