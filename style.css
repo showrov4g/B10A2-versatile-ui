@@ -2,21 +2,21 @@
 
 /* font-family: "Dancing Script", cursive;
 
-
 font-family: "Inter", sans-serif; */
-
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: "Inter", sans-serif;
+}
 /* global style  */
 .btn{
     padding: 16px 40px 16px 40px;
     background-color: #E6533C;
     border: none;
-    font-family: Inter;
     font-size: 1.25rem;
     border-radius: 45px;
     color: #fff;
@@ -26,7 +26,6 @@ font-family: "Inter", sans-serif; */
 }
 .title{
     color: #fff;
-    font-family: "Inter", sans-serif; 
     font-size: 3rem;
     font-weight: 900;
 }
@@ -76,7 +75,6 @@ header .menu ul li:hover{
 header .menu ul li a{
     text-decoration: none;
     font-size: 1.25rem;
-    font-family: "Inter", sans-serif;
     color: #fff;
 }
 header .menu .menu-bar{
@@ -95,7 +93,6 @@ header .menu .menu-bar{
     width: 50%;
 }
 .hero-content h1{
-    font-family: Inter;
     font-size: 4.9rem;
     color: #fff;
     font-family: "Inter", sans-serif;
@@ -103,7 +100,6 @@ header .menu .menu-bar{
     margin-bottom: 5%;
 }
 .hero-content p{
-    font-family: "Inter", sans-serif;
     color: rgba(255, 255, 255, 0.5);
 }
 .hero-content h1 span{
@@ -131,13 +127,11 @@ header .menu .menu-bar{
     padding: 5%;
 }
 .hero-image .box-1 h1{
-    font-family: Inter;
     font-size: 2.5rem;
     color: #fff;
     margin: 0;
 }
 .hero-image .box-1 h4{
-    font-family: Inter;
     color: rgba(255, 255, 255, 0.65);
     font-size: 0.82rem;
 }
@@ -151,13 +145,11 @@ header .menu .menu-bar{
     margin: 5%;
 }
 .hero-image .box-2 h1{
-    font-family: Inter;
     font-size: 2.5rem;
     color: #fff;
     margin: 0;
 }
 .hero-image .box-2 h4{
-    font-family: Inter;
     color: rgba(255, 255, 255, 0.65);
     font-size: 0.82rem;
 }
@@ -179,7 +171,34 @@ header .menu .menu-bar{
     padding: 3rem 0;
 }
 .habit .details{
-    width: 41rem;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
 }
+/* habit cards  */
+.habit-cards{
+    width: 80%;
+    margin:3.5rem auto;
+    gap: 1.9rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.habit-cards .habit-card{
+
+}
+.habit-card .img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.habit-card .habit-card-title{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0.6rem auto;
+}
+.habit-card .habit-card-paragraph{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+}
+/* habit section design  end*/
+
