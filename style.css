@@ -237,3 +237,33 @@ header .menu .menu-bar{
 .run-details button{
     margin-top: 1rem;
 }
+/* run section design finished */
+
+/* traning section style start  */
+.traning{
+    width: 80%;
+    margin: 0 auto;
+}
+.traning-container-1{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+.traning-container-1 .img1{
+    background-image:linear-gradient(rgba(6, 255, 210, 0.5),rgba(6, 255, 210, 0.5)), url(./images/exercise1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 13.6rem;
+}
+
+.traning-container-1 .img2{
+    background-image:linear-gradient(rgba(255, 0, 0, 0.3),rgba(255, 0, 0, 0.3)), url(/images/exercise2.png);
+    height: 13.6rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.traning-container-1 .img3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(/images/exercise3.png);
+    height: 13.6rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
