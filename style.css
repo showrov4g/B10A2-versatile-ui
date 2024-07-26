@@ -497,3 +497,45 @@ header .menu .menu-bar {
 .calculator-your-bmi .input-field button{
     margin-top: 2rem;
 }
+
+/* bmi calculator section style end  */
+
+/* team section style start  */
+.our-team{
+    width: 80%;
+    margin: 0 auto;
+}
+.our-team .team-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.our-team .team-img .item{
+    height: 17rem;
+    background-repeat: no-repeat;background-size: 100% 17rem;
+    border-radius: 18px;
+}
+.our-team .team-img .img1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(./images/trainer1.png);
+
+}
+.our-team .team-img .img2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(./images/trainer2.png);
+
+}
+.our-team .team-img .img3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(./images/trainer3.png);
+
+}
+.our-team .team-img .img4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(./images/trainer4.png);
+
+}
+.our-team .team-img .img5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(./images/trainer5.png);
+
+}
+.our-team .team-img .img6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(./images/trainer6.png);
+
+}
