@@ -264,7 +264,7 @@ header .menu .menu-bar{
 }
 
 .traning-container-1 .img2{
-    background-image:linear-gradient(rgba(255, 0, 0, 0.3),rgba(255, 0, 0, 0.3)), url(/images/exercise2.png);
+    background-image:linear-gradient(rgba(255, 0, 0, 0.3),rgba(255, 0, 0, 0.3)), url(./images/exercise2.png);
     height: 13.6rem;
     background-repeat: no-repeat;
     background-size: cover;
@@ -278,7 +278,7 @@ header .menu .menu-bar{
     left: 8%;
 }
 .traning-container-1 .img3{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(/images/exercise3.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(./images/exercise3.png);
     height: 13.6rem;
     background-repeat: no-repeat;
     background-size: cover;
@@ -315,7 +315,7 @@ header .menu .menu-bar{
 }
 
 .traning-container-2 .img5{
-    background-image:linear-gradient(rgba(66, 255, 0, 0.3),rgba(66, 255, 0, 0.3)), url(/images/exercise5.jpg);
+    background-image:linear-gradient(rgba(66, 255, 0, 0.3),rgba(66, 255, 0, 0.3)), url(./images/exercise5.jpg);
     height: 13.6rem;
     background-repeat: no-repeat;
     background-size: cover;
@@ -329,7 +329,7 @@ header .menu .menu-bar{
     left: 8%;
 }
 .traning-container-2 .img6{
-    background-image: linear-gradient(rgba(0, 71, 255, 0.3),rgba(0, 71, 255, 0.3)),url(/images/exercise6.jpg);
+    background-image: linear-gradient(rgba(0, 71, 255, 0.3),rgba(0, 71, 255, 0.3)),url(./images/exercise6.jpg);
     height: 13.6rem;
     background-repeat: no-repeat;
     background-size: cover;
