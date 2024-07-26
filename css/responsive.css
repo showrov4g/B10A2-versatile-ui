@@ -1,36 +1,45 @@
-@media screen and (max-width:576px){
-    .hero-section{
+@media screen and (max-width:576px) {
+    .hero-section {
         margin-top: 3.2rem;
     }
-    header .menu .menu-bar{
-    display: block;
+
+    header .menu .menu-bar {
+        display: block;
     }
-    header .menu ul{
+
+    header .menu ul {
         display: none;
     }
+
     /* hero section  */
     .hero-section {
         width: 90%;
         display: block;
     }
-    .hero-content{
+
+    .hero-content {
         width: 100%;
     }
-    .hero-content .button{
-       display: flex;
-       gap: 5px;
-       
+
+    .hero-content .button {
+        display: flex;
+        gap: 5px;
+
     }
-    .hero-content .button button{
+
+    .hero-content .button button {
         padding: 6px 13px 6px 13px;
     }
-    .hero-content button span{
+
+    .hero-content button span {
         display: none;
     }
-    .hero-image{
+
+    .hero-image {
         width: 100%;
     }
-    .hero-image .box-2{
+
+    .hero-image .box-2 {
         position: absolute;
         bottom: 30%;
         left: 0;
@@ -38,59 +47,73 @@
 
     /* header section design end  */
     /* habit section  */
-    .habit .details{
+    .habit .details {
         width: 90%;
     }
-    .habit-cards{
+
+    .habit-cards {
         grid-template-columns: repeat(1, 1fr);
     }
+
     /* run section  */
-    .run{
+    .run {
         width: 90%;
         display: block;
     }
-    .run-details{
+
+    .run-details {
         width: 100%;
         margin-bottom: 2.5rem;
     }
-    .run .run-img{
+
+    .run .run-img {
         width: 100%;
     }
-    .run-details button{
+
+    .run-details button {
         width: 100%;
     }
+
     /* traning section responsive  */
-    .traning{
+    .traning {
         width: 90%;
     }
-    .traning-container-1{
+
+    .traning-container-1 {
         grid-template-columns: 49% 51%;
     }
-    .traning-container-1 .img1{
+
+    .traning-container-1 .img1 {
         height: 8rem;
     }
-    .traning-container-1 .img2{
+
+    .traning-container-1 .img2 {
         height: 8rem;
         background-repeat: no-repeat;
         background-size: 291% 194%;
         background-position: left -198px top -20px;
     }
-    .traning-container-1 .img3{
+
+    .traning-container-1 .img3 {
         display: none;
     }
-    .traning-container-2{
+
+    .traning-container-2 {
         grid-template-columns: 45% 55%;
     }
-    .traning-container-2 .img4{
+
+    .traning-container-2 .img4 {
         height: 8rem;
         position: relative;
         background-size: 222% 118%;
         background-position: 45% 0%;
     }
-    .traning-container-2 .img4 h5{
+
+    .traning-container-2 .img4 h5 {
         display: none;
     }
-    .traning-container-2 .img4 .responsive{
+
+    .traning-container-2 .img4 .responsive {
         display: block;
         color: #fff;
         font-size: 0.9rem;
@@ -98,26 +121,56 @@
         top: 90px;
         left: 8%;
     }
-    .traning-container-2 .img5{
+
+    .traning-container-2 .img5 {
         height: 8rem;
     }
-    .traning-container-2 .img6{
+
+    .traning-container-2 .img6 {
         display: none;
     }
-    .traning-container-2 .img5 h5{
+
+    .traning-container-2 .img5 h5 {
         display: none;
     }
-    .traning-container-2 .img5 .responsive{
+
+    .traning-container-2 .img5 .responsive {
         display: block;
     }
+
     /* traning section responsive end  */
     /* bmi section  */
-    .bmi{
+    .bmi {
         width: 90%;
     }
-    .bmi p>br{
+
+    .bmi p>br {
         display: none;
     }
+
     /* Bmi section responsive end */
-    
-}   
+    /* bmi calculator section responsive */
+
+    .bmi-calculator .bmi-content {
+        display: inline;
+    }
+    .bmi-calculator .bmi-content {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .bmi-calculator-chart {
+        width: 90%;
+        margin: 0 auto 4rem auto;
+    }
+    .calculator-your-bmi {
+        width: 90%;
+    margin: 0 auto;
+    }
+    .calculator-your-bmi .input-field input, .calculator-your-bmi .input-field #sex {
+        width: 48%;
+    }
+    .calculator-your-bmi .input-field input:first-child, .calculator-your-bmi .input-field input:nth-child(3) {
+        margin-right: 2%;
+    }
+
+}
