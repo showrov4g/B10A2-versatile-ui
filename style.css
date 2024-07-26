@@ -353,3 +353,41 @@ header .menu .menu-bar{
     width: 60%;
     margin: 5rem auto;
 }
+/* bmi calculator section style start  */
+.bmi-calculator{
+    background: rgb(34, 34, 34);
+    padding: 3.25rem 0 3.25rem 0;
+}
+.bmi-calculator .bmi-heading{
+    margin: 3.25rem 0;
+}
+.bmi-calculator .bmi-content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.bmi-calculator .bmi-heading{
+    font-size: 1.75rem;
+}
+.bmi-calculator-chart{
+    width: 40%;
+}
+.bmi-calculator .bmi-calculator-chart table, .bmi-calculator .bmi-calculator-chart table th, .bmi-calculator .bmi-calculator-chart table td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    text-align: left;
+    padding: 0.94rem 1.25rem ;
+}
+.bmi-calculator .bmi-calculator-chart table th{
+    color: #fff;
+    font-size: 1rem;
+}
+.bmi-calculator .bmi-calculator-chart table td {
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.calculator-your-bmi{
+    width: 60%;
+}
