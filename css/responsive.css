@@ -110,4 +110,12 @@
     .traning-container-2 .img5 .responsive{
         display: block;
     }
+    /* traning section responsive end  */
+    /* bmi section  */
+    .bmi{
+        width: 90%;
+    }
+    .bmi p>br{
+        display: none;
+    }
 }   

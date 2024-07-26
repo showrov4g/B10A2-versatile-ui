@@ -244,6 +244,10 @@ header .menu .menu-bar{
     width: 80%;
     margin: 0 auto;
 }
+.traning .traning-title p{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
 .traning-container-1{
     display: grid;
     grid-template-columns: 25% 45% 30%;
@@ -341,4 +345,11 @@ header .menu .menu-bar{
     position: absolute;
     bottom: 15%;
     left: 8%;
+}
+/* traning section style end  */
+
+/* bmi section style start  */
+.bmi{
+    width: 60%;
+    margin: 5rem auto;
 }
