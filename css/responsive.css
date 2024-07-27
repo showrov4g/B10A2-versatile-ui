@@ -186,5 +186,10 @@
     .our-team .team-img .item {
         height: 12rem;
     }
+    /* our team section responsive end  */
+}
 
+.footer-content{
+    width: 80%;
+    margin: 0 auto;
 }
