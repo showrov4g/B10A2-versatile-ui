@@ -511,12 +511,14 @@ header .menu .menu-bar {
 /* team section style start  */
 .our-team {
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 5.5rem auto;
 }
-.our-team .team-heading{
+
+.our-team .team-heading {
     margin: 3.6rem auto;
     text-align: center;
 }
+
 .our-team .team-img {
     border-radius: 18px;
     padding: 1.25rem;
@@ -533,14 +535,16 @@ header .menu .menu-bar {
     border-radius: 18px;
     position: relative;
 }
-.our-team .team-img .item h4{
+
+.our-team .team-img .item h4 {
     position: absolute;
     left: 35px;
     bottom: 50px;
     color: #fff;
     font-size: 1rem;
 }
-.our-team .team-img .item h6{
+
+.our-team .team-img .item h6 {
     position: absolute;
     left: 35px;
     bottom: 30px;
@@ -575,5 +579,46 @@ header .menu .menu-bar {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./images/trainer6.png);
 
 }
-/* our team section style end  */
 
+/* our team section style end  */
+footer{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem 0 1rem 0;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    gap: 30px;
+}
+
+.footer-content .footer-left h1 {
+    color: #E6533C;
+    font-style: italic;
+    font-size: 3.5rem;
+}
+.footer-middle h3, .footer-right h3{
+    font-size: 2rem;
+    margin: 1.5rem auto;
+}
+.footer-left p{
+    width: 80%;
+}
+.footer-middle ul li, .footer-right ul li{
+    list-style: none;
+    margin: 0.8rem auto;
+}
+.footer-middle ul li a, .footer-right ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-content>hr{
+    width: 200%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-bottom{
+    padding: 1rem 0 1.5rem 0;
+    text-align: center;
+
+}
