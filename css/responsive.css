@@ -172,5 +172,19 @@
     .calculator-your-bmi .input-field input:first-child, .calculator-your-bmi .input-field input:nth-child(3) {
         margin-right: 2%;
     }
+    /* our team section responsive  */
+    .our-team {
+        width: 90%;
+    }
+    .our-team .team-heading br{
+        display: none;
+    }
+    .our-team .team-img {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+    .our-team .team-img .item {
+        height: 12rem;
+    }
 
 }
