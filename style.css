@@ -23,6 +23,7 @@ body {
     font-size: 1.25rem;
     border-radius: 45px;
     color: #fff;
+    cursor: pointer;
 }
 
 .background {
@@ -620,5 +621,4 @@ footer{
 .footer-bottom{
     padding: 1rem 0 1.5rem 0;
     text-align: center;
-
 }
